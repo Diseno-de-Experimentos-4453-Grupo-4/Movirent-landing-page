@@ -2,28 +2,13 @@
     margin-right: 30px;
 }
 
-/*General Fonts Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
-
 :root {
     --primary: rgb(88, 252, 209);
-    --secondary: rgb(12, 238, 178);
-    --dark: rgb(33, 37, 47);
-    --body: rgb(136, 136, 136);
-    --white: rgb(246, 240, 240);
-    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
-    --blue: rgb(51,55,100);
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
-html {
-    font: normal 16px sans-serif;
-    color: #07dffd;
-    scroll-behavior: smooth;
 }
 
 ul, nav {
@@ -38,14 +23,7 @@ a {
 a:hover {
     opacity: 1;
 }
-a.btn {
-    color: rgb(5, 248, 183);
-    border-radius: 4px;
-    text-transform: uppercase;
-    background-color: #f31d4d;
-    font-weight: 800;
-    text-align: center;
-}
+
 .card-effect {
     box-shadow: var(--box-shadow);
     background-color:#DFE5EF ;
@@ -70,10 +48,7 @@ section{
     padding-right: 3rem;
     color: #ffffff;
 }
-#header #language{
-    padding-left: 0.5rem;
-    color: #00e7ff;
-}
+
 #header #switcher{
     display: flex;
 }
@@ -121,7 +96,7 @@ section{
 }
 
 #hero .callTo-Buttons-container {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 #hero .order-lg-2{
@@ -163,7 +138,7 @@ section{
     width: 125px;
     height: 125px;
     border-radius: 100px;
-    
+
 }
 
 
@@ -197,7 +172,7 @@ section{
     justify-content: center;
     align-content: center;
     align-items: center;
-   
+
 }
 
 .team-member {
@@ -436,4 +411,4 @@ section{
     .footer-top img {
       width: 200px;
     }
-  }
+}
