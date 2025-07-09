@@ -4,6 +4,9 @@
 
 :root {
     --primary: rgb(88, 252, 209);
+    --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --dark: #212529;
+    --body: #6c757d;
 }
 *{
     margin:0;
@@ -359,33 +362,33 @@ section{
 #footer .social-icons a{
     padding-left: 1rem;
 }
- #footer .text-color {
+#footer .text-color {
     color: #333764;
-  }
+}
 
-  #footer .list-unstyled a,
-  #footer .social-icons a {
+#footer .list-unstyled a,
+#footer .social-icons a {
     color: #333764;
-  }
-  .footer-top .logo-foot {
+}
+.footer-top .logo-foot {
     max-width: 100%;
-  }
-  #footer .text-color {
+}
+#footer .text-color {
     color: #333764;
-  }
+}
 
-  #footer .list-unstyled a,
-  #footer .social-icons a {
+#footer .list-unstyled a,
+#footer .social-icons a {
     color: rgb(51, 55, 100);
-  }
+}
 .footer-icons{
     color: #333647;
 }
 
-  .footer-top .logo-foot {
+.footer-top .logo-foot {
     max-width: 100%;
-  }
-  .icons-container{
+}
+.icons-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -403,12 +406,51 @@ section{
 }
 @media (max-width: 992px) {
     .footer-top .row {
-      text-align: center;
+        text-align: center;
     }
     .footer-top .col-lg-4, .footer-top .col-lg-2 {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .footer-top img {
-      width: 200px;
+        width: 200px;
     }
+}
+
+
+/* =================================
+   Estilos para la Sección de Beneficios
+   ================================= */
+#benefits {
+    background-color: #f8f9fa; /* Un fondo claro y limpio */
+}
+
+.benefit-card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.benefit-icon {
+    color: #5AB84A; /* Color verde principal de tu marca */
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+    transform: scale(1.1); /* Agranda ligeramente el ícono */
+}
+
+.benefit-card h5 {
+    color: #333647;
+    font-weight: 700;
+}
+
+.benefit-card p {
+    color: #555d6e;
 }
